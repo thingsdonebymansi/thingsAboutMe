@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">thingsAboutMe</string>
+    <string name="name">Name</string>
+    <string name="designation">Android App Developer</string>
+</resources>
