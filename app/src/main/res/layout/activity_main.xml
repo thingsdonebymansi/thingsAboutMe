@@ -22,17 +22,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
+        <ImageView
+            android:id="@+id/imageVProfilePic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_background"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/zhaner">
 
-            <ImageView
-                android:id="@+id/imageVProfilePic"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:background="@drawable/border_background"
-                app:srcCompat="@drawable/zhaner">
-
-            </ImageView>
-
+        </ImageView>
 
 
     </androidx.cardview.widget.CardView>
@@ -43,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/chelsea_market"
-        android:text="@string/name"
+        android:text="@string/tv_name"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,11 +54,91 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
         android:fontFamily="@font/chelsea_market"
-        android:text="@string/designation"
+        android:text="@string/tv_designation"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSkills"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="209dp"
+        android:backgroundTint="#7B1E88E5"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/btn_skills"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEdu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/btnEdu"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="209dp"
+        android:backgroundTint="#7B1E88E5"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/btn_edu"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSkills"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="454dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="541dp" />
+
+    <Button
+        android:id="@+id/btnExperience"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="142dp"
+        android:backgroundTint="#7B1E88E5"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/btn_experience"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnProjects"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSkills" />
+
+    <Button
+        android:id="@+id/btnProjects"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="142dp"
+        android:backgroundTint="#7B1E88E5"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/btn_projects"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnExperience"
+        app:layout_constraintTop_toBottomOf="@+id/btnEdu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

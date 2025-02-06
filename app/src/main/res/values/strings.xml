@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">thingsAboutMe</string>
-    <string name="name">Name</string>
-    <string name="designation">Android App Developer</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_designation">Android App Developer</string>
+    <string name="btn_skills">Skills</string>
+    <string name="btn_edu">Education</string>
+    <string name="btn_experience">Experience</string>
+    <string name="btn_projects">Projects</string>
 </resources>
