@@ -63,7 +63,7 @@
 
     <Button
         android:id="@+id/btnSkills"
-        android:layout_width="140dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="11dp"
@@ -71,7 +71,7 @@
         android:backgroundTint="#7B1E88E5"
         android:fontFamily="@font/chelsea_market"
         android:text="@string/btn_skills"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnEdu"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
 
     <Button
         android:id="@+id/btnEdu"
-        android:layout_width="140dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
         android:layout_marginEnd="60dp"
@@ -87,7 +87,7 @@
         android:backgroundTint="#7B1E88E5"
         android:fontFamily="@font/chelsea_market"
         android:text="@string/btn_edu"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnSkills"
@@ -109,7 +109,7 @@
 
     <Button
         android:id="@+id/btnExperience"
-        android:layout_width="140dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="30dp"
@@ -118,7 +118,7 @@
         android:backgroundTint="#7B1E88E5"
         android:fontFamily="@font/chelsea_market"
         android:text="@string/btn_experience"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnProjects"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +126,7 @@
 
     <Button
         android:id="@+id/btnProjects"
-        android:layout_width="140dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
         android:layout_marginTop="30dp"
@@ -135,7 +135,7 @@
         android:backgroundTint="#7B1E88E5"
         android:fontFamily="@font/chelsea_market"
         android:text="@string/btn_projects"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnExperience"
