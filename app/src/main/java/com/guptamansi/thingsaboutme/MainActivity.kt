@@ -25,5 +25,23 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnEdu = findViewById<Button>(R.id.btnEdu)
+        btnEdu.setOnClickListener {
+            val intent = Intent(this, EduActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        val btnExp = findViewById<Button>(R.id.btnExperience)
+        btnExp.setOnClickListener {
+            val intent = Intent(this, ExpActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnProjects = findViewById<Button>(R.id.btnProjects)
+        btnProjects.setOnClickListener {
+            val intent = Intent(this, ProjectsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

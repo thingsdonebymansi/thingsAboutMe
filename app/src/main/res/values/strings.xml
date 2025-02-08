@@ -6,5 +6,9 @@
     <string name="btn_edu">Education</string>
     <string name="btn_experience">Experience</string>
     <string name="btn_projects">Projects</string>
+    <string name="tv_skills">My Skills</string>
+    <string name="tv_edu">My Education</string>
+    <string name="tv_exp">My Experience</string>
+    <string name="tv_projects">My Projects</string>
 
 </resources>

@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SkillsActivity">
+    tools:context=".ExpActivity">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSkillsBack"
+        android:id="@+id/btnExpBack"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/btn_color"
@@ -23,15 +23,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tVSkills"
+        android:id="@+id/tVExp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:fontFamily="@font/chelsea_market"
-        android:text="@string/tv_skills"
+        android:text="@string/tv_exp"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnSkillsBack"
+        app:layout_constraintBottom_toTopOf="@+id/btnExpBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
